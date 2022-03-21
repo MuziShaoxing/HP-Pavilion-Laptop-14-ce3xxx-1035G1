@@ -95,7 +95,7 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>PNLF renamed XNLF（防止某些情况Windows蓝屏）</string>
+				<string>PNLF renamed XNLF</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -231,8 +231,6 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAwA==</data>
 				<key>model</key>
 				<string>Intel Iris Plus Graphics G7</string>
 			</dict>
@@ -369,7 +367,7 @@
 				<key>BundlePath</key>
 				<string>ACPIBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>ACPI电池驱动</string>
+				<string>ACPI电池</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -387,7 +385,7 @@
 				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string>ACPI电池驱动补丁</string>
+				<string>ACPI电池补丁</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -621,7 +619,7 @@
 				<key>BundlePath</key>
 				<string>itlwm.kext</string>
 				<key>Comment</key>
-				<string>Wi-Fi驱动-详见说明</string>
+				<string>英特尔Wi-Fi-详见说明</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -675,7 +673,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>英特尔蓝牙-Big Sur及以下开关</string>
+				<string>英特尔蓝牙-  Big Sur  及以下开关</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -693,7 +691,7 @@
 				<key>BundlePath</key>
 				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>英特尔蓝牙-Big Sur修补蓝牙支持</string>
+				<string>英特尔蓝牙-Big Sur蓝牙支持修复</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -711,7 +709,7 @@
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
-				<string>有线网卡</string>
+				<string>板载有线网卡</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
