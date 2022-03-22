@@ -123,3 +123,13 @@
   - 安卓USB共享网络: [HoRNDIS](https://github.com/jwise/HoRNDIS/releases)
   - 解除更新限制: [RestrictEvents.kext](https://github.com/acidanthera/RestrictEvents)
 - ACPI补丁包：https://github.com/daliansky/OC-little
+
+# 打赏作者
+
+## 支付宝
+
+![](./说明文件/打赏/Alipay.png)
+
+## 微信
+
+![微信](./说明文件/打赏/Wechat.png)
