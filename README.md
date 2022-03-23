@@ -1,4 +1,6 @@
-# 博客更新: https://shaoxing.netlify.app/6be582fe.html
+# 博客更新: 
+
+# https://shaoxing.netlify.app/6be582fe.html
 
 ## 系统检测
 
@@ -32,14 +34,14 @@
 
 | **功能**             | **依赖**                                                     | **备注**                                                     |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Wi-Fi**            | **AirportItlwm_Monterey.kext<br/>AirportItlwm_Big_Sur.kext<br/>itlwm.kext** | **AirportItlwm与itlwm不可共存使用<br/>ltlwm需要搭配软件[HeliPort.dmg](https://github.com/OpenIntelWireless/HeliPort/releases)** |
+| **Wi-Fi**            | **AirportItlwm_Monterey.kext<br/>AirportItlwm_Big_Sur.kext<br/>或itlwm.kext** | **AirportItlwm与itlwm不可共存使用<br/>ltlwm需要搭配软件[HeliPort.dmg](https://github.com/OpenIntelWireless/HeliPort/releases)** |
 | **蓝牙**             | **IntelBluetoothFirmware.kext**                              | **Big Sur蓝牙识别:<br/>IntelBluetoothInjector.kext<br/>Monterey蓝牙识别:<br/>BlueToolFixup.kext** |
 | **声卡**             | **AppleALC.kext**                                            | **扬声器<br/>麦克风<br/>3.5mm接口**                          |
 | **显卡**             | **WhateverGreen.kext**                                       | **AAPL,ig-platform-id:0000528A**                             |
 | **电池电量**         | **ACPIBatteryManager.kext<br/>ECEnabler.kext**               | **1:驱动，2:电池补丁**                                       |
 | **CPU 电源管理**     | **SSDT-PLUG.aml**                                            |                                                              |
 | **SMBIOS**           | **MacBookPro16,2**                                           | **仿冒机型-三码请自我刷新**                                  |
-| **休眠/睡眠**        | **SSDT-DWAK.aml**|                                                               |
+| **休眠/睡眠**        | **SSDT-DWAK.aml**                                            |                                                              |
 | **USB 电源属性**     | **SSDT-EC-USBX-LAPTOP.aml**                                  |                                                              |
 | **USB 2.0, USB 3.0** | **USBPorts.kext**                                            | **或“SSDT-UIAC.aml”<br/>请禁用“USBInjectAll.kext”**          |
 | **亮度调节快捷键**   | **BrightnessKeys.kext<br/>SSDT-PNLF-SKL_KBL.aml**            | **如遇蓝屏-请配合重命名PNLF更名XNLF**                        |
@@ -126,10 +128,4 @@
 
 # 打赏作者
 
-## 支付宝
-
-![](./说明文件/打赏/Alipay.png)
-
-## 微信
-
-![微信](./说明文件/打赏/Wechat.png)
+![12:37](https://cdn.jsdelivr.net/gh/muzishaoxing/picture@main/shaoxing/20220323/12:37.png)
