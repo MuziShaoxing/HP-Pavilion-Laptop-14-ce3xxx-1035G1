@@ -28,13 +28,13 @@
 | **蓝牙**             | **IntelBluetoothFirmware.kext**                              | **Big Sur蓝牙识别:<br/>IntelBluetoothInjector.kext<br/>Monterey蓝牙识别:<br/>BlueToolFixup.kext** |
 | **声卡**             | **AppleALC.kext**                                            | **扬声器<br/>麦克风<br/>3.5mm接口**                          |
 | **显卡**             | **WhateverGreen.kext**                                       | **AAPL,ig-platform-id:0000528A**                             |
-| **电池电量**         | **ACPIBatteryManager.kext<br/>ECEnabler.kext**               | **1:驱动，2:电池补丁**                                       |
+| **电池电量**         | **SMCBatteryManager.kext<br/>ECEnabler.kext**                | **1:电池驱动，2:电池补丁**                                   |
 | **CPU 电源管理**     | **SSDT-PLUG.aml**                                            |                                                              |
 | **SMBIOS**           | **MacBookPro16,2**                                           | **仿冒机型-三码请自我刷新**                                  |
-| **休眠/睡眠**        | **SSDT-DWAK.aml**                                            |                                                              |
+| **休眠/睡眠**        | **SSDT-DWAK.aml**                                            | **睡眠几乎不掉电**                                           |
 | **USB 电源属性**     | **SSDT-EC-USBX-LAPTOP.aml**                                  |                                                              |
 | **USB 2.0, USB 3.0** | **USBPorts.kext**                                            | **或“SSDT-UIAC.aml”<br/>请禁用“USBInjectAll.kext”**          |
-| **亮度调节快捷键**   | **BrightnessKeys.kext<br/>SSDT-PNLF-SKL_KBL.aml**            | **如遇蓝屏-请配合重命名PNLF更名XNLF**                        |
+| **亮度调节快捷键**   | **BrightnessKeys.kext<br/>SSDT-PNLF-CFL.aml**                |                                                              |
 | **键盘与触控板手势** | **VoodooPS2Controller.kext**                                 | **全部手势都可用**                                           |
 | **🔗安卓USB共享网络** | **HoRNDIS.kext**                                             | **根据需求选择是否启用**                                     |
 | **美化-白果鼠标**    | **FakeAppleUSBMouse.kext**                                   | **需改ID- [点击查看教程](https://shaoxing.netlify.app/aa6b9ae8.html)** |
@@ -66,6 +66,20 @@
 
 ## 更新日志
 
+## 2022年3月23日
+
+1. 修复BUG
+   - 电池维修:删除~~ACPIBatteryManager.kext~~，更换成**SMCBatteryManager.kext**
+2. 
+
+### 2022年3月22日
+
+1. 开机黑屏修复
+2. 睡眠唤醒黑屏修复
+3. SSDT补丁-精准定位
+4. 中文注释填写
+5. 改机型“MacBookAir9,1”
+
 ### 2022 年 3 月 20 日
 
 - 创建EFI储存库-部署基础数据库
@@ -85,13 +99,6 @@
   - USB定制
   - 触摸板-全功能
   
-### 2022年3月22日
-
-1. 开机黑屏修复
-2. 睡眠唤醒黑屏修复
-3. SSDT补丁-精准定位
-4. 中文注释填写
-5. 改机型“MacBookAir9,1”
 
   
 
