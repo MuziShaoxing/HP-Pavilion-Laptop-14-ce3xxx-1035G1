@@ -54,6 +54,14 @@
 				<key>Path</key>
 				<string>SSDT-UIAC.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>说明文件-少星262782714</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>HP_Pavilion_Laptop14-ce3xxx-1035G1-AC9560/RTL8168-OC079.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -69,7 +77,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>RUMwXw==</data>
 				<key>Limit</key>
@@ -231,11 +239,17 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>AAPL,slot-name</key>
+				<string>Built-in</string>
 				<key>model</key>
 				<string>Intel Iris Plus Graphics G7</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built-in</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -621,11 +635,11 @@
 				<key>Comment</key>
 				<string>英特尔Wi-Fi-详见说明</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/itlwm</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>19.99.99</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -994,7 +1008,7 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AllowToggleSip</key>
-			<true/>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1021,7 +1035,28 @@
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>TPM支持</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>TpmInfo</string>
+				<key>Path</key>
+				<string>TpmInfo.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -1032,7 +1067,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-noDC9 -igfxdbeo igfxfw=2 watchdog=0 -igfxblr  agdpmod=vit9696 igfxrpsc=1 igfxagdc=0</string>
+				<string>-igfxdbeo igfxfw=2 watchdog=0 -igfxblr  agdpmod=vit9696 igfxrpsc=1 igfxagdc=0 -noDC9</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1327,7 +1362,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>OpenPartitionDxe.efi</string>
 			</dict>
