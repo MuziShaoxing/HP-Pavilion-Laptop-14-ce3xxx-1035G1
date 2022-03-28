@@ -55,7 +55,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>Comment</key>
-						<string>Upper-left-2.0</string>
+						<string>左上_2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -68,7 +68,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>Comment</key>
-						<string>Lower-left-2.0</string>
+						<string>左下_2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -81,7 +81,7 @@
 					<key>HS03</key>
 					<dict>
 						<key>Comment</key>
-						<string>Built-in_Camera</string>
+						<string>内建_摄像头</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -94,7 +94,7 @@
 					<key>HS04</key>
 					<dict>
 						<key>Comment</key>
-						<string>Right-TC-2.0</string>
+						<string>Type-C_2.0</string>
 						<key>UsbConnector</key>
 						<integer>10</integer>
 						<key>name</key>
@@ -107,7 +107,7 @@
 					<key>HS06</key>
 					<dict>
 						<key>Comment</key>
-						<string>Built-in_SDCard</string>
+						<string>内建_读卡器</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -120,7 +120,7 @@
 					<key>HS10</key>
 					<dict>
 						<key>Comment</key>
-						<string>Built-in_Bluetooth</string>
+						<string>内建_蓝牙</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>name</key>
@@ -133,7 +133,7 @@
 					<key>SS01</key>
 					<dict>
 						<key>Comment</key>
-						<string>Upper-left-3.0</string>
+						<string>左上_3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -146,7 +146,7 @@
 					<key>SS02</key>
 					<dict>
 						<key>Comment</key>
-						<string>Lower-left-2.0</string>
+						<string>左下_3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -159,7 +159,7 @@
 					<key>SS03</key>
 					<dict>
 						<key>Comment</key>
-						<string>Right-TC-3.0</string>
+						<string>Type-C_3.0</string>
 						<key>UsbConnector</key>
 						<integer>10</integer>
 						<key>name</key>

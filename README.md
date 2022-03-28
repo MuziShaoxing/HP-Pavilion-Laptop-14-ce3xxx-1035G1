@@ -6,21 +6,22 @@
 
 | **电脑型号** | **HP Pavilion Laptop 14-ce3xxx 笔记本电脑**                  |
 | :----------- | :----------------------------------------------------------- |
-| **处理器**   | **英特尔 Core i5-1035G1 @ 1.00GHz 四核**                     |
+| **CPU**      | **英特尔 Core i5-1035G1 @ 1.00GHz 四核**                     |
 | **主板**     | **惠普 86E1 ( I/O - 3482 for Intel 495 Series 芯片组 Family On-Package Platform Controller Hub )** |
-| **主显卡**   | **Nvidia GeForce MX250 ( 2 GB / 惠普 )**                     |
-| **核显卡**   | **第十代智能英特尔® 酷睿™ 处理器的英特尔® 超核芯显卡**       |
+| **独显**     | **Nvidia GeForce MX250 ( 2 GB / 惠普 )**                     |
+| **核显**     | **第十代智能英特尔® 酷睿™ 处理器的英特尔® 超核芯显卡**       |
 | **内存**     | **8 GB ( DDR4 2667MHz )**                                    |
-| **主硬盘**   | **英特尔 SSDPEKNW010T8H ( 1024 GB / 固态硬盘 )**             |
-| **显示器**   | **LG LGD0613 ( 14 英寸  )**                                  |
+| **硬盘**     | **英特尔 SSDPEKNW010T8H ( 1024 GB / 固态硬盘 )**             |
+| **屏幕**     | **LG LGD0613 ( 14 英寸  )**                                  |
 | **声卡**     | **瑞昱 High Definition Audio @ 英特尔 英特尔智音技术音频控制器** |
-| **网卡**     | **英特尔 Wireless-AC 9560**                                  |
+| **无线**     | **英特尔 Wireless-AC 9560**                                  |
+| **有线**     | **RTL8111/8168/8411 Gigabit Ethernet Controller**            |
 
 
 
 ## 功能检测
 
-- 正常驱动硬件
+### 正常驱动硬件
 
 | **功能**             | **依赖**                                                     | **备注**                                                     |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -42,17 +43,27 @@
 | **FN功能键**         | **免驱**                                                     | **免驱**                                                     |
 | **SD读卡器**         | **免驱**                                                     | **正常**                                                     |
 | **文件保险箱**       | **勾选协议覆盖“Firmware Volume”**                            | **正常**                                                     |
+| **开机音duang**      | Misc-PickerAudioAssist☑️ <br/>UEFI-Audio-AudioDevice<br/>**PciRoot(0x0)/Pci(0x1F,0x3)** | 正常                                                         |
+| 唤醒                 | **HibernationFixup.kext**                                    | 取消可能会唤醒黑屏                                           |
 
-- 尚未测试及无法驱动的硬件
+### 尚未测试及无法驱动的硬件
 
 | 功能       | 依赖 | 备注                            |
 | ---------- | ---- | ------------------------------- |
 | 指纹       | 无   | 无法驱动                        |
 | 独显-MX250 | 无   | 无法驱动                        |
-| 开机音频   | 无   | 原因不详                        |
 | 随航投屏   | 无   | 尚未测试                        |
-|            |      |                                 |
-| 隔空投送   |      | 更换苹果拆机卡/博通网卡即可使用 |
+| 隔空投送   | 无   | 更换苹果拆机卡/博通网卡即可使用 |
+
+### 已知故障
+
+| 故障描述                     | 疑似相关               |
+| ---------------------------- | ---------------------- |
+| Monterey「宗卷哈希值不匹配」 | BlueToolFixup.kext     |
+| 键盘灯开关「按键黑屏」       | 未知，疑似对应休眠键值 |
+|                              |                        |
+
+
 
 > 上述检测信息实时更新，以最新版引导为校准
 
@@ -66,11 +77,33 @@
 
 ## 更新日志
 
+## 置顶注意事项
+
+- 由于有中文注释存在，故OC验证会报错！请忽略以下错误：
+  - ACPI->Add[*]->**Comment contains illegal character!**
+  - Kernel->Add[*]->**Comment contains illegal character!**
+  - Misc->Tools[*]->**Comment contains illegal character!**
+  - UEFI->Drivers[*]->**Comment contains illegal character!**
+
+## 2022年3月27日
+
+1. 睡眠唤醒黑屏修复调整
+   - 增加**HibernationFixup.kext**实测唤醒正常
+2. 修改核显卡名称为“**Nvidia GeForce MX250**”显存**2048MB**
+   - 伪装独显被驱动的假象！！！
+3. **itlwm.kext**驱动默认不勾选。如需使用请取消以下内容
+   - AirportItlwm_Big_Sur.kext
+   - AirportItlwm_Monterey.kext
+4. 修改安全启动:「**j230k** MacBookAir9,1 (March 2020)」
+
 ## 2022年3月23日
 
 1. 修复BUG
    - 电池维修:删除~~ACPIBatteryManager.kext~~，更换成**SMCBatteryManager.kext**
-2. 
+   - 注：如果换电池或其他情况下出现电池维修，换一次驱动即可。。
+2. 开启开机音频支持“duang”
+   - Misc-PickerAudioAssist☑️
+   - UEFI-Audio-AudioDevice:**PciRoot(0x0)/Pci(0x1F,0x3)**
 
 ### 2022年3月22日
 
@@ -99,7 +132,7 @@
   - USB定制
   - 触摸板-全功能
   
-
+  
   
 
 ## 下载地址聚合
