@@ -196,8 +196,6 @@
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AQBcig==</data>
-				<key>AAPL,slot-name</key>
-				<string>built-in</string>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wAJ5e0IAAAAACwdAQSlHxF4Ax72ll1bkSkcTlEAAAABAQEBAQEBAQEBAQEBAQEBwDmAGHE4KEAwIDYANa4QAAAaNC6AGHE4KEAwIDYANa4QAAAaAAAA/gBCT0UgQ1EKICAgICAgAAAA/gBOVjE0MEZITS1ONjcKAHU=</data>
 				<key>backlight-smoother-interval</key>
