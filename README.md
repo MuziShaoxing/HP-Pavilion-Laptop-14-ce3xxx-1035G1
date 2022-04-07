@@ -14,7 +14,7 @@
 | **硬盘**     | **英特尔 SSDPEKNW010T8H ( 1024 GB / 固态硬盘 )**             |
 | **屏幕**     | **LG LGD0613 ( 14 英寸  )**                                  |
 | **声卡**     | **瑞昱 High Definition Audio @ 英特尔 英特尔智音技术音频控制器** |
-| **无线**     | **博通 94360Z4**                                             |
+| **无线**     | **博通 94360Z4**_2022-0401更换                               |
 | **有线**     | **RTL8111/8168/8411 Gigabit Ethernet Controller**            |
 
 
@@ -23,28 +23,28 @@
 
 ### 正常驱动硬件
 
-| **功能**             | **依赖**                                                  | **备注**                                                     |
-| -------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
-| **Wi-Fi**            | **免驱**                                                  | **Bcm94360z4**                                               |
-| **蓝牙**             | **免驱**                                                  | **Bcm94360z4**                                               |
-| **声卡**             | **AppleALC.kext**                                         | **扬声器<br/>麦克风<br/>3.5mm接口**                          |
-| **显卡**             | **WhateverGreen.kext**                                    | **AAPL,ig-platform-id:0000528A**                             |
-| **电池电量**         | **SMCBatteryManager.kext<br/>ECEnabler.kext**             | **1:电池驱动，2:电池补丁**                                   |
-| **CPU 电源管理**     | **SSDT-PLUG.aml**                                         |                                                              |
-| **SMBIOS**           | **MacBook Air 9,1**                                       | **仿冒机型-三码请自我刷新**                                  |
-| **休眠/睡眠**        | **SSDT-DWAK.aml**                                         | **睡眠几乎不掉电**                                           |
-| **USB 电源属性**     | **SSDT-EC-USBX-LAPTOP.aml**                               |                                                              |
-| **USB 2.0, USB 3.0** | **USBPorts.kext**                                         | **或“SSDT-UIAC.aml”<br/>请禁用“USBInjectAll.kext”**          |
-| **亮度调节快捷键**   | **BrightnessKeys.kext<br/>SSDT-PNLF-CFL.aml**             |                                                              |
-| **键盘与触控板手势** | **VoodooPS2Controller.kext**                              | **全部手势都可用**                                           |
-| **🔗安卓USB共享网络** | **HoRNDIS.kext**                                          | **根据需求选择是否启用**                                     |
-| **美化-白果鼠标**    | **FakeAppleUSBMouse.kext**                                | **需改ID- [点击查看教程](https://shaoxing.netlify.app/aa6b9ae8.html)** |
-| **SATA磁盘识别**     | **CtlnaAHCIPort.kext**                                    | **也许你会需要**                                             |
-| **FN功能键**         | **免驱**                                                  | **免驱**                                                     |
-| **SD读卡器**         | **免驱**                                                  | **正常**                                                     |
-| **文件保险箱**       | **勾选协议覆盖“Firmware Volume”**                         | **正常**                                                     |
-| **开机音duang**      | **UEFI-Audio-AudioDevice<br/>PciRoot(0x0)/Pci(0x1F,0x3)** | 正常                                                         |
-| 唤醒                 | **HibernationFixup.kext**                                 | 取消可能会唤醒黑屏                                           |
+| **功能**             | **依赖**                                      | **备注**                                                     |
+| -------------------- | --------------------------------------------- | ------------------------------------------------------------ |
+| **Wi-Fi**            | **免驱**                                      | **Bcm94360z4**                                               |
+| **蓝牙**             | **免驱**                                      | **Bcm94360z4**                                               |
+| **声卡**             | **AppleALC.kext**                             | **扬声器<br/>麦克风<br/>3.5mm接口**                          |
+| **显卡**             | **WhateverGreen.kext**                        | **AAPL,ig-platform-id:0000528A**                             |
+| **电池电量**         | **SMCBatteryManager.kext<br/>ECEnabler.kext** | **1:电池驱动，2:电池补丁**                                   |
+| **CPU 电源管理**     | **SSDT-PLUG.aml**                             |                                                              |
+| **SMBIOS**           | **MacBook Air 9,1**                           | **仿冒机型-三码请自我刷新**                                  |
+| **休眠/睡眠**        | **SSDT-DWAK.aml**                             | **睡眠几乎不掉电**                                           |
+| **USB 电源属性**     | **SSDT-EC-USBX-LAPTOP.aml**                   |                                                              |
+| **USB 2.0, USB 3.0** | **USBPorts.kext**                             | **或“SSDT-UIAC.aml”<br/>请禁用“USBInjectAll.kext”**          |
+| **亮度调节快捷键**   | **BrightnessKeys.kext<br/>SSDT-PNLF-CFL.aml** |                                                              |
+| **键盘与触控板手势** | **VoodooPS2Controller.kext**                  | **全部手势都可用**                                           |
+| **🔗安卓USB共享网络** | **HoRNDIS.kext**                              | **根据需求选择是否启用**                                     |
+| **美化-白果鼠标**    | **FakeAppleUSBMouse.kext**                    | **需改ID- [点击查看教程](https://shaoxing.netlify.app/aa6b9ae8.html)** |
+| **SATA磁盘识别**     | **CtlnaAHCIPort.kext**                        | **也许你会需要**                                             |
+| **FN功能键**         | **免驱__修补:SSDT-PS2K.aml**                  | 部分按键异常&无效                                            |
+| **SD读卡器**         | **USB端口X1占用**                             | **正常**                                                     |
+| **文件保险箱**       | **勾选协议覆盖“Firmware Volume”**             | **正常**                                                     |
+| **开机音duang**      | **设置信息**                                  | 正常                                                         |
+| 唤醒                 | **HibernationFixup.kext**                     | 取消可能会唤醒黑屏                                           |
 
 ### 尚未测试及无法驱动的硬件
 
@@ -61,8 +61,8 @@
 | 故障描述                     | 疑似相关                              |
 | ---------------------------- | ------------------------------------- |
 | Monterey「宗卷哈希值不匹配」 | BlueToolFixup.kext<br/>换免驱卡解决！ |
-| 键盘灯开关「按键黑屏」       | 未知，疑似对应休眠键值                |
-| 功能键不工作                 | 功能键：F1，F4，F12，电源键单击       |
+| 进入OpenCorePkg两秒黑屏切换  | 未知                                  |
+| FN功能键                     | F4&F12无效                            |
 
 
 
@@ -88,6 +88,24 @@
   - UEFI->Drivers[*]->**Comment contains illegal character!**
 - 成功进入桌面后，请第一时间更新三码信息，
   - 测试三码会导致某些情况数据丢失！！！
+
+## 2022年4月4日
+
+- 修复FN+F5功能键「休眠/黑屏」
+- 修复电源键无效「短按休眠-长按电源菜单」
+- 增加仿冒新设备，使之更像白果
+
+### 增加内容
+
+1. 添加**ACPI**补丁
+   1. SSDT-DMAC.aml——DMA控制器
+   2. SSDT-MCHC.aml——内存控制器
+   3. SSDT-MEM2.aml——仿冒 MEM2
+   4. SSDT-PPMC.aml——仿冒PPMC
+   5. SSDT-PS2K.aml——修复某些键盘异常问题-已知停用后FN+F5休眠
+   6. SSDT-PMCR.aml——长按唤醒电源键菜单
+   7. SSDT-LIDpatch.aml——盒盖睡眠
+      - 重命名**_LID to XLID**
 
 ## 2022年4月4日
 
@@ -119,10 +137,6 @@
    - 增加**HibernationFixup.kext**实测唤醒正常
 2. 修改核显卡名称为“**Nvidia GeForce MX250**”显存**2048MB**
    - **伪装**「独显」被**驱动**的**假象**！！！
-3. **itlwm.kext**驱动默认不勾选。如需使用请取消以下内容
-   - AirportItlwm_Big_Sur.kext
-   - AirportItlwm_Monterey.kext
-4. 修改安全启动:「**j230k** MacBookAir9,1 (March 2020)」
 
 ## 2022年3月23日
 
@@ -130,7 +144,6 @@
    - 电池维修:删除~~ACPIBatteryManager.kext~~，更换成**SMCBatteryManager.kext**
    - 注：如果换电池或其他情况下出现电池维修，换一次驱动即可。。
 2. 开启开机音频支持“duang”
-   - Misc-PickerAudioAssist☑️
    - UEFI-Audio-AudioDevice:**PciRoot(0x0)/Pci(0x1F,0x3)**
 
 ### 2022年3月22日
