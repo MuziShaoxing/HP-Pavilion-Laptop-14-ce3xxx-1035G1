@@ -20,51 +20,19 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>可选-电源管理-SB_PR00</string>
+				<string>可选-电源管理</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-_SB.PR00.aml</string>
+				<string>SSDT-PLUG-DRTNIA.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>可选-DMA控制器</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DMAC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>可选-内存控制器</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>可选-仿冒 MEM2</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-MEM2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>可选-仿冒PPMC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PPMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>可选-亮度调节键-重命名: PNLF to XNLF</string>
+				<string>可选-亮度调节键补丁</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,35 +40,91 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>可选-修复某些键盘异常问题-已知停用后FN+F5休眠</string>
+				<string>可选-操作系统补丁_用于修复FN+F5睡眠</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PS2K.aml</string>
+				<string>SSDT-XOSI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>可选-固定盖子睡眠</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-HP-FixLidSleep.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>推荐-通过ACPI屏蔽独显加载</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-Disable_DGPU.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>可选-重置USB控制器以允许硬件映射</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-USB-Reset.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>博客: https://shaoxing.netlify.app/6be582fe.html</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>HP_Pavilion_Laptop14-ce3xxx-1035G1-RTL8168-OC079.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>可选-DMA控制器</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-DMAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>可选-内存控制器</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>可选-仿冒 MEM2</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-MEM2.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>可选-仿冒PPMC</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-PPMC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>可选-长按唤醒电源键菜单</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PMCR.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>可选-盒盖睡眠-重命名：_LID to XLID</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-LIDpatch.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>备用-睡眠有问题尝试加载</string>
+				<string>可选-需要修复许多Icelake笔记本电脑上的根设备错误</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>SSDT-DWAK.aml</string>
+				<string>SSDT-RHUB.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -112,11 +136,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>发布页: https://shaoxing.netlify.app/6be582fe.html</string>
+				<string>备用-睡眠有问题尝试加载</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>HP_Pavilion_Laptop14-ce3xxx-1035G1-RTL8168-OC079.aml</string>
+				<string>SSDT-DWAK.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -129,11 +153,11 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>PNLF to XNLF</string>
+				<string>PNLF to XNLF-可选- Windows蓝屏勾选</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>UE5MRg==</data>
 				<key>Limit</key>
@@ -159,13 +183,13 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>_LID to XLID</string>
+				<string>操作系统补丁_OSI to XOSI</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0xJRAA=</data>
+				<data>X09TSQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -173,7 +197,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WExJRAA=</data>
+				<data>WE9TSQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -182,6 +206,36 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data></data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>EC0 to EC (USB Power)</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -232,7 +286,7 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<true/>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
@@ -278,20 +332,10 @@
 				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AQBcig==</data>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAJ5e0IAAAAACwdAQSlHxF4Ax72ll1bkSkcTlEAAAABAQEBAQEBAQEBAQEBAQEBwDmAGHE4KEAwIDYANa4QAAAaNC6AGHE4KEAwIDYANa4QAAAaAAAA/gBCT0UgQ1EKICAgICAgAAAA/gBOVjE0MEZITS1ONjcKAHU=</data>
-				<key>backlight-smoother-interval</key>
-				<data>BwAAAA==</data>
-				<key>backlight-smoother-steps</key>
-				<data>IwAAAA==</data>
-				<key>backlight-smoother-threshold</key>
-				<data>LAEAAA==</data>
 				<key>device-id</key>
 				<data>XIoAAA==</data>
 				<key>disable-agdc</key>
 				<data>AAAAAA==</data>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 				<key>enable-backlight-registers-fix</key>
 				<data>AQAAAA==</data>
 				<key>enable-backlight-smoother</key>
@@ -333,7 +377,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>必选首驱-补丁引擎</string>
+				<string>V1.6.1 | 必选首驱-补丁引擎</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -351,7 +395,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>必选-SMC仿真器</string>
+				<string>V1.3.0 | 必选-SMC仿真器</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -369,7 +413,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>必选-声卡</string>
+				<string>V1.7.1 | 必选-声卡</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -387,7 +431,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>必选-显卡</string>
+				<string>V1.5.9 | 必选-显卡</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -405,7 +449,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>可选-CPU传感器</string>
+				<string>V1.3.0 | 可选-CPU传感器</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -421,27 +465,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SMCSuperIO.kext</string>
-				<key>Comment</key>
-				<string>可选-SuperIO传感器</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCSuperIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>可选-电池驱动</string>
+				<string>V1.3.0 | 可选-电池驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -459,7 +485,7 @@
 				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string>可选-电池数据读取</string>
+				<string>V1.0.2 | 可选-电池数据读取</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -477,7 +503,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
-				<string>可选-CPU变频</string>
+				<string>V1.2.5 | 可选-CPU变频</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -495,7 +521,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Comment</key>
-				<string>可选- CPU变频补丁</string>
+				<string>V1.0.0 | 可选- CPU变频补丁</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -513,7 +539,7 @@
 				<key>BundlePath</key>
 				<string>BrightnessKeys.kext</string>
 				<key>Comment</key>
-				<string>可选-亮度快捷键</string>
+				<string>V1.0.2 | 可选-亮度快捷键</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -531,7 +557,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>必选-PS2控制器_0</string>
+				<string>V2.2.9 | 必选-PS2控制器_0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -549,7 +575,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string>必选-鼠标_1</string>
+				<string>V2.2.9 | 必选-鼠标_1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -567,7 +593,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>必选-键盘_2</string>
+				<string>V2.2.9 | 必选-键盘_2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -585,7 +611,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string>必选-触摸板_3</string>
+				<string>V2.2.9 | 必选-触摸板_3</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -603,7 +629,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>必选- 模拟触摸板_4</string>
+				<string>V1.1.3 | 必选- 模拟触摸板_4</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -621,7 +647,7 @@
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
-				<string>可选-板载有线网卡</string>
+				<string>V2.4.2 | 可选-板载有线网卡</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -639,7 +665,7 @@
 				<key>BundlePath</key>
 				<string>HoRNDIS9.2.kext</string>
 				<key>Comment</key>
-				<string>可选-USB网络共享</string>
+				<string>V9.2 | 可选-USB网络共享</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -657,7 +683,7 @@
 				<key>BundlePath</key>
 				<string>FakeAppleUSBMouse.kext</string>
 				<key>Comment</key>
-				<string>可选-白果鼠标仿冒-自定义</string>
+				<string>V9.9 | 可选-白果鼠标仿冒-自定义</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -675,7 +701,7 @@
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
-				<string>可选-睡眠唤醒修复</string>
+				<string>V1.4.6 | 可选-睡眠唤醒修复</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -693,7 +719,7 @@
 				<key>BundlePath</key>
 				<string>RestrictEvents.kext</string>
 				<key>Comment</key>
-				<string>必选-解除更新限制</string>
+				<string>V1.0.8 | 必选-解除更新限制</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -711,7 +737,7 @@
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
-				<string>二选一_USB曝光</string>
+				<string>V0.7.8 | 二选一_USB曝光</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -729,7 +755,7 @@
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
 				<key>Comment</key>
-				<string>二选一_USB定制</string>
+				<string>V1.0 | 二选一_USB定制</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -766,7 +792,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -774,7 +800,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -788,7 +814,7 @@
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
-			<false/>
+			<true/>
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
@@ -827,21 +853,21 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>Auto</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>17</integer>
+			<integer>1</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Acidanthera/BigSurFlat</string>
+			<string>ShaoXing/OpenCore</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -854,11 +880,11 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
-			<true/>
+			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -903,7 +929,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -915,7 +941,7 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>TPM支持</string>
+				<string>TPM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
@@ -929,6 +955,46 @@
 				<key>TextMode</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>CleanNvram</string>
+				<key>Path</key>
+				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>ControlMsrE2</string>
+				<key>Path</key>
+				<string>ControlMsrE2.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
@@ -937,12 +1003,8 @@
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
 				<key>boot-args</key>
 				<string>-noDC9</string>
-				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>zh-Hans:252</string>
 			</dict>
@@ -977,7 +1039,7 @@
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
-			<true/>
+			<false/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
@@ -1009,7 +1071,7 @@
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
-			<true/>
+			<false/>
 			<key>MinDate</key>
 			<integer>-1</integer>
 			<key>MinVersion</key>
@@ -1024,15 +1086,15 @@
 			<key>GraphicsInputMirroring</key>
 			<false/>
 			<key>KeyInitialDelay</key>
-			<integer>0</integer>
+			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
-			<integer>0</integer>
+			<integer>5</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
-			<integer>0</integer>
+			<integer>10</integer>
 			<key>PointerPollMax</key>
-			<integer>0</integer>
+			<integer>80</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -1057,7 +1119,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-128</integer>
 			<key>PlayChime</key>
-			<string>Enabled</string>
+			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
@@ -1095,17 +1157,17 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>OpenHfsPlus.efi</string>
+				<string>HfsPlus.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>HFS格式支持-二选一</string>
+				<string>可选-引导截图支持</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>HfsPlus.efi</string>
+				<string>CrScreenshotDxe.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1121,11 +1183,11 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>可选-引导截图支持</string>
+				<string>HFS格式支持-二选一</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
-				<string>CrScreenshotDxe.efi</string>
+				<string>OpenHfsPlus.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -1178,12 +1240,12 @@
 			<key>UgaPassThrough</key>
 			<false/>
 			<key>UIScale</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
-			<false/>
+			<true/>
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
@@ -1226,7 +1288,7 @@
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>EnableVectorAcceleration</key>
-			<false/>
+			<true/>
 			<key>EnableVmx</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
@@ -1242,7 +1304,7 @@
 			<key>ReloadOptionRoms</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
-			<true/>
+			<false/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
