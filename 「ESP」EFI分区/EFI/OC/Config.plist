@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
+        <key>#GitHub</key>
+        <string>https://github.com/MuziShaoxing/HP-Pavilion-Laptop-14-ce3xxx-1035G1</string>
+        <key>#作者「QQ」</key>
+        <string>少星「262782714」</string>
+        <key>#发布页</key>
+        <string>https://shaoxing.vercel.app/6be582fe.html</string>
+        <key>#说明</key>
+        <string>永久免费分享，收费购买请差评投诉并退款</string>
         <key>ACPI</key>
         <dict>
             <key>Add</key>
@@ -923,7 +931,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>2</integer>
+                <integer>15</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
