@@ -11,7 +11,7 @@
 | **主板**     | **惠普 86E1 ( I/O - 3482 for Intel 495 Series 芯片组 Family On-Package Platform Controller Hub )** |
 | **独显**     | **Nvidia GeForce MX250 ( 2 GB / 惠普 )**                     |
 | **核显**     | **第十代智能英特尔® 酷睿™ 处理器的英特尔® 超核芯显卡**       |
-| **内存**     | **8 GB ( DDR4 2667MHz )**                                    |
+| **内存**     | **金士顿 16 GB ( DDR4 3200MHz )**_2022-05-7更换              |
 | **硬盘**     | **英特尔 SSDPEKNW010T8H ( 1024 GB / 固态硬盘 )**             |
 | **屏幕**     | **LG LGD0613 ( 14 英寸  )**                                  |
 | **声卡**     | **瑞昱 High Definition Audio @ 英特尔 英特尔智音技术音频控制器** |
@@ -67,12 +67,12 @@
 
 ### 已知故障
 
-| 故障描述                     | 疑似相关                              |
-| ---------------------------- | ------------------------------------- |
-| Monterey「宗卷哈希值不匹配」 | BlueToolFixup.kext<br/>免驱卡间歇出现 |
-| 进入OpenCorePkg两秒黑屏切换  | 未知                                  |
-| FN功能键                     | F12无效                               |
-| 睡眠唤醒                     | 延迟2秒亮屏                           |
+| 故障描述                            | 疑似相关                                    |
+| ----------------------------------- | ------------------------------------------- |
+| Monterey「长时间播放声卡丢失-间歇」 | 疑似声卡状态切换-打开『设置-声音-输入』恢复 |
+| 进入OpenCorePkg两秒黑屏切换         | 疑似设备问题，测试其他设备没有              |
+| FN功能键                            | F12无效                                     |
+| 睡眠唤醒                            | 延迟2秒亮屏                                 |
 
 
 
@@ -100,6 +100,23 @@
   - 测试三码会导致某些情况数据丢失！！！
 
 
+
+### 2022年5月8日
+
+- 新增备用驱动**CodecCommander.kext**修复睡眠唤醒声卡丢失
+  - 按需启用
+
+### 2022年5月5日
+
+- **修正**以下驱动，以SMBus方式驱动触控板。
+  - 启用
+    - VoodooRMI.kext
+    - VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext
+    - VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext
+    - VoodooSMBus.kext
+  - 禁用
+    - ~~VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext~~
+    - ~~VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext~~
 
 ### 2022年4月21日
 
