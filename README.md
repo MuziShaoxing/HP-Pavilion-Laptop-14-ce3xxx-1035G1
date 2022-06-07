@@ -101,6 +101,13 @@
 
 
 
+### 2022年6月7日
+
+- OpenCorePkg版本递增0.8.1
+- 调整以下内容以适配「macOS Ventura 13.0」
+  1. 新增引导参数“ **-lilubetaall**  ”
+  2. 关闭怪癖“**AvoidRuntimeDefrag**”
+
 ### 2022年5月8日
 
 - 新增备用驱动**CodecCommander.kext**修复睡眠唤醒声卡丢失
