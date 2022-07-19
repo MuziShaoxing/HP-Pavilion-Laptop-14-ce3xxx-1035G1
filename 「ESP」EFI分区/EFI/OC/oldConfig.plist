@@ -225,7 +225,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>RUMwXw==</data>
                     <key>Limit</key>
@@ -253,7 +253,7 @@
                 <key>NormalizeHeaders</key>
                 <false/>
                 <key>RebaseRegions</key>
-                <false/>
+                <true/>
                 <key>ResetHwSig</key>
                 <false/>
                 <key>ResetLogoStatus</key>
@@ -282,7 +282,7 @@
                 <key>AllowRelocationBlock</key>
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
-                <false/>
+                <true/>
                 <key>DevirtualiseMmio</key>
                 <true/>
                 <key>DisableSingleUser</key>
@@ -427,7 +427,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0 | 必选首驱-补丁引擎</string>
+                    <string>V1.6.2 | 必选首驱-补丁引擎</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -445,7 +445,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | 必选-SMC仿真器</string>
+                    <string>V1.3.0 | 必选-SMC仿真器</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -463,7 +463,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.2 | 必选-声卡</string>
+                    <string>V1.7.4 | 必选-声卡</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -481,7 +481,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.9 | 必选-显卡</string>
+                    <string>V1.6.1 | 必选-显卡</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -499,7 +499,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8 | 必选-PS2控制器_1</string>
+                    <string>V2.2.9 | 必选-PS2控制器_1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -517,7 +517,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8 | 必选-PS2触摸板_2</string>
+                    <string>V2.2.9 | 必选-PS2触摸板_2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -535,7 +535,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.8 | 必选-PS2键盘_3</string>
+                    <string>V2.2.9 | 必选-PS2键盘_3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -643,7 +643,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | 可选-CPU传感器</string>
+                    <string>V1.3.0 | 可选-CPU传感器</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -661,7 +661,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.5 | 可选-CPU变频</string>
+                    <string>V1.2.6 | 可选-CPU变频</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -697,7 +697,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9 | 可选-电池驱动</string>
+                    <string>V1.3.0 | 可选-电池驱动</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -715,7 +715,7 @@
                     <key>BundlePath</key>
                     <string>ECEnabler.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.2 | 可选-电池数据补丁</string>
+                    <string>V1.0.3 | 可选-电池数据补丁</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -805,7 +805,7 @@
                     <key>BundlePath</key>
                     <string>HibernationFixup.kext</string>
                     <key>Comment</key>
-                    <string>V1.4.5 | 备用-睡眠唤醒黑屏修复</string>
+                    <string>V1.4.6 | 备用-睡眠唤醒黑屏修复</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -823,7 +823,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.7 | 备用-无法安装更新时启用</string>
+                    <string>V1.0.8 | 备用-无法安装更新时启用</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -961,7 +961,7 @@
                 <key>ConsoleAttributes</key>
                 <integer>0</integer>
                 <key>HibernateMode</key>
-                <string>Auto</string>
+                <string>None</string>
                 <key>HideAuxiliary</key>
                 <true/>
                 <key>LauncherOption</key>
@@ -1274,7 +1274,7 @@
                     <key>Comment</key>
                     <string>可选-btrfs格式支持</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>btrfs_x64.efi</string>
                 </dict>
@@ -1284,7 +1284,7 @@
                     <key>Comment</key>
                     <string>可选-EXT4格式支持</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>ext4_x64.efi</string>
                 </dict>
@@ -1294,7 +1294,7 @@
                     <key>Comment</key>
                     <string>可选-Linux引导支持</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>OpenLinuxBoot.efi</string>
                 </dict>
