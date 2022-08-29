@@ -233,9 +233,9 @@
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 			<key>ProductID</key>
-			<integer>59</integer>
+			<integer>100</integer>
 			<key>VendorID</key>
-			<integer>10007</integer>
+			<integer>7847</integer>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>

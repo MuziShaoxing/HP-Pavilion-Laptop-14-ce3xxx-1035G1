@@ -94,6 +94,22 @@
 - 成功进入桌面后，请第一时间更新三码信息，
   - 测试三码会导致某些情况数据丢失！！！
 
+
+
+### 2022年8月29日
+
+- OpenCorePkg版本递增0.8.3
+
+- 更新部分驱动版本。
+
+- 清空机型三码信息。
+
+- 更换主题图标
+
+- 更新鼠标仿冒参数「自我专用」
+
+
+
 ### 2022年6月7日
 
 - OpenCorePkg版本递增0.8.1
@@ -279,5 +295,7 @@
 - ACPI补丁包：https://github.com/daliansky/OC-little
 
 # 打赏作者
+
+- 如果觉得用的不错，可以打赏我个鸡腿吃。。。
 
 ![12:37](https://gcore.jsdelivr.net/gh/muzishaoxing/picture@main/shaoxing/20220323/12:37.png)

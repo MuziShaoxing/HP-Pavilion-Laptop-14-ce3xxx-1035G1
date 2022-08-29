@@ -1,0 +1,349 @@
+--------[ 鲁大师 ]--------------------------------------------------------------------------------
+
+  软件:             鲁大师 5.1021.1300.108
+  时间:             2022-05-07 12:41:44
+  网站:             http://www.ludashi.com
+
+--------[ 概览 ]----------------------------------------------------------------------------------
+
+  电脑型号            HP Pavilion Laptop 14-ce3xxx 笔记本电脑
+  操作系统            Windows 10 64位 ( DirectX 12 )
+
+  处理器              英特尔 Core i5-1035G1 @ 1.00GHz 四核
+  主板                惠普 86E1 ( I/O - 3482 for Intel 495 Series 芯片组 Family On-Package Platform Controller Hub )
+  主显卡              Nvidia GeForce MX250 ( 2 GB / 惠普 )
+  内存                16 GB ( DDR4 3200MHz )
+  主硬盘              英特尔 SSDPEKNW010T8H ( 1024 GB / 固态硬盘 )
+  显示器              LG LGD0613 ( 14 英寸  )
+  声卡                瑞昱 High Definition Audio @ 英特尔 英特尔智音技术音频控制器
+  网卡                博通 Broadcom 802.11ac Network Adapter / 0BB8A618
+
+--------[ 主板 ]----------------------------------------------------------------------------------
+
+  主板型号            惠普 86E1
+  芯片组              I/O - 3482 for Intel 495 Series 芯片组 Family On-Package Platform Controller Hub
+  序列号              PJLWU028JCXBW6
+  主板版本            95.36
+  BIOS版本            Insyde F.15  /  BIOS程序发布日期: 09/03/2021
+  BIOS的大小          12288 KB
+
+
+--------[ 处理器 ]--------------------------------------------------------------------------------
+
+  处理器              英特尔 Core i5-1035G1 @ 1.00GHz 四核
+  速度                3.30 GHz (100 MHz x 33.0)
+  处理器数量          核心数: 4 / 线程数: 8
+  插槽/插座           U3E1
+  一级数据缓存        4 x 48 KB, 12-Way, 64 byte lines
+  一级代码缓存        4 x 32 KB, 8-Way, 64 byte lines
+  二级缓存            4 x 512 KB, 8-Way, 64 byte lines
+  三级缓存            6 MB, 12-Way, 64 byte lines
+  特征                MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, HTT, EM64T, EIST, Turbo Boost
+
+--------[ 硬盘 ]----------------------------------------------------------------------------------
+
+  产品                英特尔  SSDPEKNW010T8H (固态硬盘)
+  大小                1024 GB
+  硬盘已使用          共 2791 次，累计 6714 小时
+  固件                HPS1
+  接口                NVM Express
+  特征                S.M.A.R.T
+
+  产品                SDXC Card
+  大小                62 GB
+  固件                1.00
+  特征                S.M.A.R.T
+
+--------[ 内存 ]----------------------------------------------------------------------------------
+
+  Bottom              DDR4 3200MHz 16GB
+  序列号              8C9E17CC
+  模块位宽:           64 bits
+
+--------[ 显卡 ]----------------------------------------------------------------------------------
+
+  显卡                英特尔 UHD Graphics
+  显存                128 MB
+  制造商              惠普
+  制造商              Intel
+  驱动版本            30.0.101.1660
+  驱动日期            20220318
+
+  主显卡              Nvidia GeForce MX250
+  显存                2 GB
+  制造商              惠普
+  制造商              Nvidia
+  驱动版本            30.0.15.1179
+  驱动日期            20220210
+
+--------[ 显示器 ]--------------------------------------------------------------------------------
+
+  产品                LG LGD0613
+  厂商                LG
+  固件程序日期        2018 年 (非显示器制造日期)
+  屏幕尺寸            14 英寸 (309 毫米 x 174 毫米)
+  显示比例            宽屏 16 : 9
+  分辨率              1920 x 1080 (缩放比例:125%) 32 位真彩色
+  Gamma               2.20
+  最大分辨率          1920 x 1080
+
+--------[ 其他设备 ]------------------------------------------------------------------------------
+
+
+  无线网卡            博通 Broadcom 802.11ac Network Adapter
+  制造商              0BB8A618
+
+  网卡                瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller
+  制造商              惠普
+
+  无线网卡            MI Dongle MI Wireless Mouse
+
+  声卡                瑞昱 High Definition Audio @ 英特尔 英特尔智音技术音频控制器
+
+  键盘                PS/2 标准键盘
+  键盘                HID 标准键盘
+  键盘                HID 标准键盘
+  鼠标                HID-compliant 鼠标
+  鼠标                Synaptics SMBus ClickPad
+
+  摄像头              HP Wide Vision HD Camera
+
+--------[ PCI设备 ]-------------------------------------------------------------------------------
+
+  设备                PCI 标准主机 CPU 桥
+  设备ID              8A12
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to HOST
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                未知(0401h)
+  设备ID              0401
+  制造商              未知(0002h)
+  制造商ID            0002
+  类别                Unknown / 
+  子系统制造商        Ncipher
+  子系统ID            02000100
+
+  设备                未知(0000h)
+  设备ID              0000
+  制造商              Allied Telesyn
+  制造商ID            0010
+  类别                 / 
+  子系统ID            00000000
+
+  设备                UHD Graphics
+  设备ID              8A56
+  制造商              Intel
+  制造商ID            8086
+  类别                Display / VGA
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                Dynamic Tuning Processor Participant
+  设备ID              8A03
+  制造商              Intel
+  制造商ID            8086
+  类别                Data Aquisition & Signal Processing / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                未知(34EDh)
+  设备ID              34ED
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / USB (UHCI)
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                PCI 标准 RAM 控制器
+  设备ID              34EF
+  制造商              Intel
+  制造商ID            8086
+  类别                Memory / RAM
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                Serial IO I2C Host Controller - 34E8
+  设备ID              34E8
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                Serial IO I2C Host Controller - 34E9
+  设备ID              34E9
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                Management Engine Interface
+  设备ID              34E0
+  制造商              Intel
+  制造商ID            8086
+  类别                Simple Communication / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                ICH8M-E/ICH9M-E/5 Series SATA RAID Controller
+  设备ID              282A
+  制造商              Intel
+  制造商ID            8086
+  类别                Storage / RAID
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                PCI Express Root Port #1 - 34B8
+  设备ID              34B8
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                PCI Express Root Port #5 - 34BC
+  设备ID              34BC
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                PCI Express Root Port #9 - 34B0
+  设备ID              34B0
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                PCI Express Root Port #10 - 34B1
+  设备ID              34B1
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                PCI Express Root Port #13 - 34B4
+  设备ID              34B4
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to PCI
+  子系统ID            00000000
+
+  设备                Serial IO UART Host Controller - 34A8
+  设备ID              34A8
+  制造商              Intel
+  制造商ID            8086
+  类别                Simple Communication / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                Serial IO SPI Host Controller - 34AA
+  设备ID              34AA
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                I/O LPC Controller  - 3482 for Intel 495 Series Chipset Family On-Package Platform Controller Hub
+  设备ID              3482
+  制造商              Intel
+  制造商ID            8086
+  类别                Bridge / PCI to ISA
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                英特尔智音技术音频控制器
+  设备ID              34C8
+  制造商              Intel
+  制造商ID            8086
+  类别                Multimedia / Hi-definition Audio
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                SMBus - 34A3
+  设备ID              34A3
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / SMBus Controller
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                SPI  Controller - 34A4
+  设备ID              34A4
+  制造商              Intel
+  制造商ID            8086
+  类别                Serial / Other
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                GeForce MX250
+  设备ID              1D13
+  制造商              Nvidia
+  制造商ID            10DE
+  类别                Display / 3D
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                Broadcom 802.11ac Network Adapter
+  设备ID              43A0
+  制造商              Broadcom
+  制造商ID            14E4
+  类别                Network / Other
+  子系统制造商        未知(BB8A618h)
+  子系统ID            0BB8A618
+
+  设备                RTL8168/8111/8112 Gigabit Ethernet Controller
+  设备ID              8168
+  制造商              Realtek
+  制造商ID            10EC
+  类别                Network / Ethernet
+  子系统制造商        Hewlett-Packard
+  子系统ID            86E1103C
+
+  设备                未知(F1A8h)
+  设备ID              F1A8
+  制造商              Intel
+  制造商ID            8086
+  类别                Storage / 
+  子系统制造商        Intel
+  子系统ID            390D8086
+
+--------[ USB设备 ]-------------------------------------------------------------------------------
+
+  制造商ID            2717
+  产品ID              003B
+  类别                0 / 0 / 0
+  设备                MI Dongle MI Wireless Mouse
+  Serial              ?
+  版本                USB 2.0
+
+  制造商ID            04F2
+  产品ID              B627
+  类别                239 / 2 / 1
+  设备                 
+  版本                USB 2.0
+
+  描述                Alcor Micro Corp. Multi Flash Reader
+  制造商ID            058F
+  产品ID              6366
+  类别                0 / 0 / 0
+  设备                Generic Flash Card Reader/Writer
+  Serial              058F63666485
+
+  制造商ID            05AC
+  产品ID              828D
+  类别                255 / 1 / 1
+  设备                 
+  版本                USB 2.0
+
+--------[ 传感器 ]--------------------------------------------------------------------------------
+
+  CPU温度             48℃
+  CPU核心             49℃
+  CPU封装             50℃
+  显卡                42℃
+  硬盘温度            35℃

@@ -60,7 +60,7 @@
                     <key>Enabled</key>
                     <false/>
                     <key>Path</key>
-                    <string>HP_Pavilion_Laptop14-ce3xxx-1035G1-RTL8168-OC081.aml</string>
+                    <string>HP_Pavilion_Laptop14-ce3xxx-1035G1-RTL8168-OC083.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -214,36 +214,6 @@
                     <integer>0</integer>
                     <key>TableSignature</key>
                     <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>EC0 to EC (USB Power)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>RUMwXw==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>RUNfXw==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
                 </dict>
             </array>
             <key>Quirks</key>
@@ -1037,6 +1007,33 @@
             </dict>
             <key>Serial</key>
             <dict>
+                <key>Custom</key>
+                <dict>
+                    <key>BaudRate</key>
+                    <integer>115200</integer>
+                    <key>ClockRate</key>
+                    <integer>1843200</integer>
+                    <key>DetectCable</key>
+                    <false/>
+                    <key>ExtendedTxFifoSize</key>
+                    <integer>64</integer>
+                    <key>FifoControl</key>
+                    <integer>7</integer>
+                    <key>LineControl</key>
+                    <integer>3</integer>
+                    <key>PciDeviceInfo</key>
+                    <data>/w==</data>
+                    <key>RegisterAccessWidth</key>
+                    <integer>8</integer>
+                    <key>RegisterBase</key>
+                    <integer>1016</integer>
+                    <key>RegisterStride</key>
+                    <integer>1</integer>
+                    <key>UseHardwareFlowControl</key>
+                    <false/>
+                    <key>UseMmio</key>
+                    <false/>
+                </dict>
                 <key>Init</key>
                 <false/>
                 <key>Override</key>
@@ -1050,7 +1047,7 @@
                     <key>Auxiliary</key>
                     <true/>
                     <key>Comment</key>
-                    <string>TPM</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Flavour</key>
@@ -1060,9 +1057,9 @@
                     <key>Path</key>
                     <string>TpmInfo.efi</string>
                     <key>RealPath</key>
-                    <false/>
+                    <true/>
                     <key>TextMode</key>
-                    <false/>
+                    <true/>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -1080,29 +1077,9 @@
                     <key>Path</key>
                     <string>CleanNvram.efi</string>
                     <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Auxiliary</key>
                     <true/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>ControlMsrE2</string>
-                    <key>Path</key>
-                    <string>ControlMsrE2.efi</string>
-                    <key>RealPath</key>
-                    <false/>
                     <key>TextMode</key>
-                    <false/>
+                    <true/>
                 </dict>
             </array>
         </dict>
@@ -1113,15 +1090,15 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>-noDC9 -lilubetaall</string>
+                    <string>-noDC9</string>
+                    <key>csr-active-config</key>
+                    <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
                     <string>zh-Hans:252</string>
                 </dict>
             </dict>
             <key>Delete</key>
             <dict/>
-            <key>LegacyEnable</key>
-            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -1140,7 +1117,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>FVF019303QX00001F</string>
+                <string></string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1148,15 +1125,15 @@
                 <key>ROM</key>
                 <data></data>
                 <key>SpoofVendor</key>
-                <false/>
+                <true/>
                 <key>SystemMemoryStatus</key>
-                <string>Upgradable</string>
+                <string>Auto</string>
                 <key>SystemProductName</key>
                 <string>MacBookAir9,1</string>
                 <key>SystemSerialNumber</key>
-                <string>FVFCPFYPMNHP</string>
+                <string></string>
                 <key>SystemUUID</key>
-                <string>39444335-3334-4638-3442-040E3C9F79A3</string>
+                <string></string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1245,6 +1222,8 @@
                     <string>必须-OC底层支持</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
@@ -1255,6 +1234,8 @@
                     <string>推荐-HFS格式支持-二选一</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>HfsPlus.efi</string>
                 </dict>
@@ -1264,6 +1245,8 @@
                     <key>Comment</key>
                     <string>备选-HFS格式支持-二选一</string>
                     <key>Enabled</key>
+                    <false/>
+                    <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
                     <string>OpenHfsPlus.efi</string>
@@ -1275,6 +1258,8 @@
                     <string>可选-btrfs格式支持</string>
                     <key>Enabled</key>
                     <false/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>btrfs_x64.efi</string>
                 </dict>
@@ -1284,6 +1269,8 @@
                     <key>Comment</key>
                     <string>可选-EXT4格式支持</string>
                     <key>Enabled</key>
+                    <false/>
+                    <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
                     <string>ext4_x64.efi</string>
@@ -1295,6 +1282,8 @@
                     <string>可选-Linux引导支持</string>
                     <key>Enabled</key>
                     <false/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenLinuxBoot.efi</string>
                 </dict>
@@ -1305,6 +1294,8 @@
                     <string>可选-OC主题支持</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
@@ -1315,6 +1306,8 @@
                     <string>可选-引导截图支持</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>CrScreenshotDxe.efi</string>
                 </dict>
@@ -1325,6 +1318,8 @@
                     <string>可选-开机音频支持</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>AudioDxe.efi</string>
                 </dict>
