@@ -60,7 +60,7 @@
                     <key>Enabled</key>
                     <false/>
                     <key>Path</key>
-                    <string>HP_Pavilion_Laptop14-ce3xxx-1035G1-RTL8168-OC0.8.4.aml</string>
+                    <string>HP_Pavilion_Laptop14-ce3xxx-1035G1-RTL8168-OC0.8.5.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -433,7 +433,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.4 | 必选-声卡</string>
+                    <string>V1.7.5 | 必选-声卡</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -469,7 +469,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.9 | 必选-PS2控制器_1</string>
+                    <string>V2.3.1 | 必选-PS2控制器_1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -487,7 +487,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.9 | 必选-PS2触摸板_2</string>
+                    <string>V2.3.1 | 必选-PS2触摸板_2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -505,7 +505,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.9 | 必选-PS2键盘_3</string>
+                    <string>V2.3.1 | 必选-PS2键盘_3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -945,7 +945,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>ShaoXing/OpenCore</string>
+                <string>Windows</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
