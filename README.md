@@ -12,6 +12,7 @@
 # 博客更新:
 
 # https://shaoxing.netlify.app/6be582fe.html
+# https://blog.xinglu.xyz
 
 
 
